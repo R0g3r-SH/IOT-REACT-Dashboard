@@ -1,0 +1,33 @@
+/*
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size:2rem;
+    padding-top:50px;
+    padding-left:140px;
+    background-color: #FFFFFF;
+    width:100%;
+    height: 100vh;
+}
+
+.sub-container{
+    width:100%;
+    height: 100vh;
+}
+*/
+.mapa {
+    width:100%;
+    height: 100vh;
+    z-index: -3;
+
+}
+
+.floating{
+    
+    z-index: 3;
+    position:fixed;
+    top: 1;
+    right:0; 
+}

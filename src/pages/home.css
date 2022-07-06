@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.container {
+    display: flex;
+    font-size: 2rem;
+    padding-top: 60px;
+    padding-left: 150px;
+    background-color: #F2F2F7;
+    height: 100vh;
+}
+
+.sub-container{ 
+    display: flex;
+}
+
+.sub-container p {
+    margin: 0;
+    color: #818ea3;
+    letter-spacing: 2px;
+    font-size:.6rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", 'Inter', "Helvetica Neue", sans-serif;
+}
+
+
+.sub-container h3 {
+    margin: 0;
+    color: #3d5170;
+    font-weight: 500;
+    font-size:1.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", 'Inter', "Helvetica Neue", sans-serif;
+}
+
+.top{
+    padding-bottom:1.5rem;
+}
+
+.cicularbar{
+    height: 20rem;
+    width: 20rem;
+    padding-top: 1.5rem;
+}
+
+.cicularbarContainer{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", 'Inter', "Helvetica Neue", sans-serif;
+    color: #F2A840 !important;
+    height: 15rem;
+    width: 15rem;
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chart{
+    height:20rem;
+}
+
+.CircularProgressbar-text {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", 'Inter', "Helvetica Neue", sans-serif;
+  }
+
+.wiggets{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.bumbl{
+    background-color: #fd5c63;
+    width: 2.5rem;
+    height: .5rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+.bumblg{
+    background-color:  #12EC83;
+    width: 2.5rem;
+    height: .5rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+.bumbl1{
+    background-color: #F2A840;
+    width: 2.5rem;
+    height: .5rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+.bumbly{
+    background-color: #ffe135;
+    width: 2.5rem;
+    height: .5rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+
+.bumblm{
+    background-color: #9400d3;
+    width: 2.5rem;
+    height: .5rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+.counter {
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.counter h2{
+    color: #3d5170;
+}
+.counter-container{ 
+    padding-top: 4rem;
+}
+.labeled{
+    color: #F2A840 !important;
+}
+
+.tupper2{
+    padding-top: 1rem;
+    display:flex;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 3.5rem;
+}
+
+.bigfish{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", 'Inter', "Helvetica Neue", sans-serif;
+    margin: 0;
+    color: #818ea3;
+    font-size: 3rem;
+    padding-right: 1rem;
+margin-bottom:.5rem;
+}
+
+.complement{
+    color: #818ea3 !important;
+}
+
+.btext{
+    color: #818ea3 !important;
+}
+.coordenates{
+    display:flex;
+    justify-content:flex-start;
+}
+.x{
+    padding-right:3rem;
+}

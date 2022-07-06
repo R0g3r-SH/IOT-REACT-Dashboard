@@ -1,0 +1,117 @@
+.personalCard {
+    background-color: #FFFF;
+    border-radius: 1rem;
+    margin: 15px;
+    width: 18rem;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    height:40rem;
+    overflow-y: scroll;
+    white-space: nowrap;
+}
+
+
+.personalCard2 {
+    background-color: #FFFF;
+    border-radius: 1rem;
+    margin: 15px;
+    width: 18rem;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    overflow-y: scroll;
+    white-space: nowrap;
+}
+
+
+.personal-inner {
+    padding: 2rem
+}
+
+.personal-icon {
+    font-size: 2rem;
+    color: #F2A840;
+}
+
+.personal-element {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+}
+
+
+
+.personal-element :hover {
+    cursor: pointer;
+}
+
+
+.personal-element2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+}
+
+.personal-element2 :hover {
+    cursor: pointer;
+}
+
+.p-elemt-text h2 {
+    margin: 0;
+    color: #CACEDB;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", 'Inter', "Helvetica Neue", sans-serif;
+}
+
+.p-elemt-text h3 {
+    margin: 0;
+    color: #3d5170;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", 'Inter', "Helvetica Neue", sans-serif;
+}
+
+.state-good {
+    padding-inline-start: 2rem;
+    color: #12EC83;
+    font-size: 20px;
+}
+
+.state-y{
+    padding-inline-start: 2rem;
+    color: #ffe135;
+    font-size: 20px;
+}
+
+.state-n{
+    padding-inline-start: 2rem;
+    color: #F2A840;
+    font-size: 20px;
+}
+
+.state-r{
+    padding-inline-start: 2rem;
+    color: #fd5c63;
+    font-size: 20px;
+}
+
+.state-m{
+    padding-inline-start: 2rem;
+    color: #9400d3;
+    font-size: 20px;
+}
+
+
+.p-ti {
+    padding-bottom: 2rem;
+    letter-spacing: 2px;
+    font-size: 15px !important;
+    color: #F2A840 !important;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", 'Inter', "Helvetica Neue", sans-serif;
+}
+.p-elemt-text p {
+    color: #F2A840;
+    font-size: 1rem;
+
+}
+
